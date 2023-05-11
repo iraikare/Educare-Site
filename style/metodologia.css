@@ -1,0 +1,18 @@
+section.b h3 a:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+section.meto p{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    width: 20em;
+}
+section.meto{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+section.meto img{
+    border: 15px solid #DB712E;
+    border-radius: 1em;
+}

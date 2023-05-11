@@ -1,0 +1,26 @@
+main>div{
+    margin-top: 5em;
+    display: grid;
+    gap: 1em;
+    grid-template-rows: 10em 10em 10em 10em;
+    grid-template-columns: 1.5fr 1fr 0.5fr 2fr;
+    grid-template-areas:
+    "a b b b"
+    "a c d d"
+    "e f f g"
+    "h f f g";
+}
+.gale1{grid-area: a;}
+.gale2{grid-area: b;}
+.gale3{grid-area: c;}
+.gale4{grid-area: d;}
+.gale5{grid-area: e;}
+.gale6{grid-area: f;}
+.gale7{grid-area: g;}
+.gale8{grid-area: h;}
+section.x{
+    background-color: #AEECAD;
+}
+section.x p{
+    padding: 1em;
+}

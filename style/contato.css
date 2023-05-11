@@ -1,0 +1,68 @@
+div.a{
+    background-color: #2C8F58;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    margin-top: 5em;
+}
+div.a a{
+    text-decoration: none;
+    color: white;
+    margin-left: 0.5em;
+}
+main article> div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+main h2{
+    align-self: flex-start;
+}
+form.cont{
+    margin: 0 auto 0 0;
+}
+form.cont fieldset{
+    padding: 1em;
+    font-size: 1.5em;
+    width: 20em;
+    border: none;
+    border-left: 1em solid #DB712E;
+    border-radius: 1em;
+    background-color: white;
+}
+form.cont input, textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 1em 0 1em 0;
+    width: 18em;
+}
+form.cont input[type="submit"]{
+    width: 5em;
+    height: 2em;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 2em;
+    font-size: 0.9em;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 1.7em;
+    color: #2C8F58;
+}
+section.bb{
+    margin-left: 4em;
+}
+section.bb p{
+    font-size: 1.5em;
+    margin: 0.5em 0 0.5em 0;
+}
+h3.vis{    
+    color: #DB712E;
+    font-size: 4em;
+    margin-bottom: 1.2em;
+}

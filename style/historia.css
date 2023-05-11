@@ -1,0 +1,33 @@
+section.timeline div{
+    display: flex;
+    align-items: center;
+    padding: 4em;
+    /* border-radius: 1em; */
+
+}
+section.timeline p{
+    font-size: 1.2em;
+    margin: 0 3em 0 3em;
+}
+section.timeline div.d{
+    text-align: right;
+}
+section.timeline h2{
+    margin: 0;
+    font-size: 7em;
+}
+section.timeline{
+    margin-top: 5em;
+}
+div.um{
+    border-top: 0.2em solid #DB712E;
+    border-right: 1em solid #DB712E;
+
+}
+div.dois{
+    border-top: 0.2em solid #DB712E;
+    border-left: 1em solid #DB712E;
+}
+section.timeline img{
+    border-radius: 0.5em;
+}

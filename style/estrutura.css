@@ -1,0 +1,55 @@
+main{
+    margin: 0;
+    margin-bottom: 10em;
+    margin-top: 10em;
+    width: auto;
+}
+section.estru>div{
+    width: 75em;
+    margin: 0 auto;
+}
+section.estru p{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+section.estru nav{
+    background-color: #AEECAD;
+}
+section.estru nav ul{
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+section.estru nav li{
+    text-align: center;
+    list-style-type: none;  
+    margin: 0 5em 0 5em;
+}
+section.estru nav li figure{
+    border: 0.5em solid #DB712E;
+    height: 12em;
+    width: 12em;
+    padding: 2em;
+    border-radius: 12em;
+    box-sizing: border-box;
+}
+section.estru nav li p{
+    width: 5.5em;
+    margin: 1em auto 0 auto;
+    font-size: 1.5em;
+}
+section.estru nav li p b{
+    color: black;
+}
+section.estru nav li a{
+    text-decoration: none;
+    color: black;
+}
+section.estru nav li a:hover{
+    text-decoration: underline;
+}
+section.estru figure{
+    background-color: rgba(255, 255, 255, 0.274);
+}

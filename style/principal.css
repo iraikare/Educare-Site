@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+}
+main{
+    width: 75em;
+    margin: 10em auto 10em auto;
+}
+header li{
+        display: inline-block;
+        list-style-type: none;
+        padding: 0.5em;
+        margin-left: 2em;
+        font-size: 1.5em;
+}
+header{
+    background-color: #2C8F58;
+}
+header div{
+    border-top: 3em solid #2C8F58;
+    background-color: #AEECAD;
+}
+header h1{
+    margin-left: 8%;
+}
+nav ul{
+    padding: 2em;
+}
+header li a{
+    text-decoration: none;
+    color: white;
+}
+header li a:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+li.pag{
+    border: 1px solid white;
+    font-style: italic;
+}
+li.inicial{
+    margin-left: 0em;
+}
+input[type="search"]{
+    background: transparent;
+    border-top: none;
+    border-bottom: 0.2em solid white;
+    border-left: none;
+    border-right: none;
+    width: 5em;
+    padding: 1em;
+    height: 0.9em;
+}
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+button{
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+    background-color: transparent;
+}
+header section{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1em solid #2C8F58;
+}
+header form{
+    padding: 1.5em;
+    font-size: 0.97em;
+    display: flex;
+    justify-content: center;
+}
+p b{
+    color: #2C8F58;
+}
+footer{
+    background-color: #2C8F58;
+    color: white;
+}
+footer li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0.5em;
+}
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 18em;
+}
+address, footer section p{
+    max-width: 18em;
+    font-size: 1.5em;
+    padding-bottom: 2.2em;
+}
+footer ul{
+    border-top: 5px solid white;
+    padding: 2em 12em 1em 0;
+}
+h2{
+    color: #DB712E;
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+section.a p{
+    font-size: 1.5em;
+    width: 17em;
+}
+section.a{
+    display: flex;
+    justify-content: center;
+} 
+section.a img{
+    border: 15px solid #DB712E;
+    border-radius: 1em;
+}
+section.a div.img{
+    margin-left: 10em;
+}
+div.img p{
+    text-align: center;
+    border: 2px solid #2C8F58;
+    font-size: 1.2em;
+    width: 7em;
+    padding: 0.3em;
+    margin-left: auto;
+    margin-top: 1em;
+    border-radius: 0.2em;
+}
+div.img p a{
+    text-decoration: none;
+    color: #2C8F58;
+}
+div.img p a:hover{
+    text-decoration: underline;
+}
+section.b{
+    background-color: #AEECAD;
+    margin-top: 7em;
+    display: flex;
+    justify-content: center;
+}
+section.b div{
+    margin: 5em 2em 5em 2em;
+    border: 0.5em solid #DB712E;
+    border-radius: 0.5em;
+}
+section.b div.ima figure{
+    height: 339px;
+} 
+section.b h3{
+    background-color: #DB712E;
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+    margin-top: 0;
+}
+section.b h3 a{
+    text-decoration: none;
+    color: white;
+}
+section.b div.ima a:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
